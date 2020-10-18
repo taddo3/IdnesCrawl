@@ -45,11 +45,11 @@ def get_authors(text):
         return []
 
 
-def get_content(text):
-    result = search('<!--Modify:artPart0--> *(<[a-z0-9]+>)* *[^<]+', text)
+def get_content(text, part):
+    result = search('<!--Modify:artPart' + str(part) + '--> *(<[a-z0-9]+>)* *[^<]+', text)
     if result:
         result = result.group()
-        result = sub('<!--Modify:artPart0--> *(<[a-z0-9]+>)* *', '', result)
+        result = sub('<!--Modify:artPart' + str(part) + '--> *(<[a-z0-9]+>)* *', '', result)
         return result
     else:
         return ''
@@ -74,17 +74,29 @@ def get_headline(text):
 
 
 def get_data(article_url):
-    data = dict()
-    article_response = get(article_url)
+    try:
+        article_response = get(article_url)
+    except Exception as ex:
+        print('Error: ' + str(ex))
+        return None
+
     if article_response.status_code == 200:
+        data = dict()
         data['title'] = get_title(article_response.text)
         data['datetime'] = get_datetime(article_response.text)
         data['category'] = get_category(article_response.text)
         data['authors'] = get_authors(article_response.text)
-        data['content'] = get_content(article_response.text)
         data['subcategory'] = get_subcategory(article_response.text)
         data['headline'] = get_headline(article_response.text)
-    return data
+        data['content'] = ''
+
+        part = 0
+        while get_content(article_response.text, part):
+            data['content'] += get_content(article_response.text, part) + '\n'
+            part += 1
+        data['content'] = data['content'][:-1]
+
+        return data
 
 
 class ArticleScraper:
@@ -97,4 +109,5 @@ class ArticleScraper:
         if data:
             with open(self.file_name, 'a+', encoding='utf-8') as f:
                 f.write(dumps(data, indent=4, sort_keys=True))
+            print('Scraped: ' + article_url)
 

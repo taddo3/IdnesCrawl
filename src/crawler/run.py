@@ -9,8 +9,20 @@ file_name = '../../data/extracted_articles.txt'
 crawler = ArchiveCrawler(start_url)
 scraper = ArticleScraper(file_name)
 
-crawled_urls = crawler.get_urls()
-for url in crawled_urls:
-    scraper.scrap_article(url)
-    sleep(random())
+page_number = 1
+last_page = 5
+
+while page_number < last_page:
+    try:
+        crawled_urls = crawler.get_urls(page_number)
+        if not crawled_urls:
+            print('No urls for page n.' + str(page_number))
+            continue
+        for url in crawled_urls:
+            scraper.scrap_article(url)
+            sleep(random())
+        page_number += 1
+
+    except Exception as ex:
+        print('Error: ' + str(ex))
 
