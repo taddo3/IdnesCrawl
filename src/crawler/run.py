@@ -4,10 +4,11 @@ from src.crawler.archive_crawler import ArchiveCrawler
 from src.crawler.article_scraper import ArticleScraper
 
 start_url = 'https://www.idnes.cz/zpravy/archiv/'
-file_name = '../../data/extracted_articles.txt'
+file_name = '../../data/extracted_articles_1.txt'
+max_file_size = 1000000000
 
 crawler = ArchiveCrawler(start_url)
-scraper = ArticleScraper(file_name)
+scraper = ArticleScraper(file_name, max_file_size)
 
 page_number = 1
 last_page = 5

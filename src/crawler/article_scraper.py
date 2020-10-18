@@ -1,6 +1,7 @@
 from requests import get
 from re import search, sub
 from json import dumps
+from os import path
 
 
 def get_title(text):
@@ -101,13 +102,20 @@ def get_data(article_url):
 
 class ArticleScraper:
 
-    def __init__(self, file_name):
+    def __init__(self, file_name, max_file_size):
         self.file_name = file_name
+        self.max_file_size = max_file_size
+        with open(self.file_name, 'w', encoding='utf-8') as f:
+            f.close()
 
     def scrap_article(self, article_url):
         data = get_data(article_url)
         if data:
+            json = dumps(data, indent=4, sort_keys=True)
+            if path.getsize(self.file_name) + len(json) > self.max_file_size:
+                next_file_number = int(sub('[^0-9]', '', self.file_name)) + 1
+                self.file_name = sub('[0-9]+', str(next_file_number), self.file_name)
             with open(self.file_name, 'a+', encoding='utf-8') as f:
-                f.write(dumps(data, indent=4, sort_keys=True))
+                f.write(json)
             print('Scraped: ' + article_url)
 
