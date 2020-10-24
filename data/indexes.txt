@@ -1,0 +1,435 @@
+{
+    "posledn\u00ed": [
+        "../../data/extracted_articles_1.txt@0"
+    ],
+    "t\u00fdden": [
+        "../../data/extracted_articles_1.txt@0"
+    ],
+    "zdravotnictv\u00ed": [
+        "../../data/extracted_articles_1.txt@0",
+        "../../data/extracted_articles_1.txt@52714",
+        "../../data/extracted_articles_1.txt@68604",
+        "../../data/extracted_articles_1.txt@89843"
+    ],
+    "\u010dtvrtek": [
+        "../../data/extracted_articles_1.txt@0"
+    ],
+    "po\u010det": [
+        "../../data/extracted_articles_1.txt@0",
+        "../../data/extracted_articles_1.txt@68604"
+    ],
+    "cesta": [
+        "../../data/extracted_articles_1.txt@3201"
+    ],
+    "dovolen\u00e1": [
+        "../../data/extracted_articles_1.txt@3201"
+    ],
+    "pohoda": [
+        "../../data/extracted_articles_1.txt@3201"
+    ],
+    "chr\u00e1nit": [
+        "../../data/extracted_articles_1.txt@3201"
+    ],
+    "koronavirus": [
+        "../../data/extracted_articles_1.txt@3201",
+        "../../data/extracted_articles_1.txt@23870",
+        "../../data/extracted_articles_1.txt@72606"
+    ],
+    "Michl": [
+        "../../data/extracted_articles_1.txt@4825"
+    ],
+    "moci": [
+        "../../data/extracted_articles_1.txt@4825",
+        "../../data/extracted_articles_1.txt@43119",
+        "../../data/extracted_articles_1.txt@105693"
+    ],
+    "r\u016fst": [
+        "../../data/extracted_articles_1.txt@4825"
+    ],
+    "ekonomika": [
+        "../../data/extracted_articles_1.txt@4825"
+    ],
+    "procento": [
+        "../../data/extracted_articles_1.txt@4825",
+        "../../data/extracted_articles_1.txt@48448"
+    ],
+    "semafor": [
+        "../../data/extracted_articles_1.txt@11261"
+    ],
+    "n\u00e1kaza": [
+        "../../data/extracted_articles_1.txt@11261"
+    ],
+    "cel\u00fd": [
+        "../../data/extracted_articles_1.txt@11261"
+    ],
+    "kraj": [
+        "../../data/extracted_articles_1.txt@11261"
+    ],
+    "\u010derven\u00fd": [
+        "../../data/extracted_articles_1.txt@11261"
+    ],
+    "vakc\u00edna": [
+        "../../data/extracted_articles_1.txt@15530"
+    ],
+    "Dvo\u0159\u00e1\u010dek": [
+        "../../data/extracted_articles_1.txt@15530"
+    ],
+    "\u010dlov\u011bk": [
+        "../../data/extracted_articles_1.txt@15530",
+        "../../data/extracted_articles_1.txt@23870",
+        "../../data/extracted_articles_1.txt@68604",
+        "../../data/extracted_articles_1.txt@116740"
+    ],
+    "Jakub": [
+        "../../data/extracted_articles_1.txt@15530"
+    ],
+    "spole\u010dnost": [
+        "../../data/extracted_articles_1.txt@15530"
+    ],
+    "sv\u016fj": [
+        "../../data/extracted_articles_1.txt@23870",
+        "../../data/extracted_articles_1.txt@37149"
+    ],
+    "zem\u011b": [
+        "../../data/extracted_articles_1.txt@23870",
+        "../../data/extracted_articles_1.txt@73617",
+        "../../data/extracted_articles_1.txt@80945"
+    ],
+    "p\u0159\u00edpad": [
+        "../../data/extracted_articles_1.txt@23870"
+    ],
+    "t\u00e1bor": [
+        "../../data/extracted_articles_1.txt@26699"
+    ],
+    "zajatec": [
+        "../../data/extracted_articles_1.txt@26699"
+    ],
+    "v\u011bd\u011bt": [
+        "../../data/extracted_articles_1.txt@26699"
+    ],
+    "Dub\u00ed": [
+        "../../data/extracted_articles_1.txt@26699"
+    ],
+    "m\u00edsto": [
+        "../../data/extracted_articles_1.txt@26699"
+    ],
+    "epidemie": [
+        "../../data/extracted_articles_1.txt@32146"
+    ],
+    "stoupat": [
+        "../../data/extracted_articles_1.txt@32146"
+    ],
+    "z\u00e1vratn\u00fd": [
+        "../../data/extracted_articles_1.txt@32146"
+    ],
+    "vrchol": [
+        "../../data/extracted_articles_1.txt@32146"
+    ],
+    "nemocnice": [
+        "../../data/extracted_articles_1.txt@32146",
+        "../../data/extracted_articles_1.txt@68604"
+    ],
+    "park": [
+        "../../data/extracted_articles_1.txt@33116"
+    ],
+    "Krkono\u0161e": [
+        "../../data/extracted_articles_1.txt@33116"
+    ],
+    "motork\u00e1\u0159": [
+        "../../data/extracted_articles_1.txt@33116"
+    ],
+    "kolem": [
+        "../../data/extracted_articles_1.txt@33116"
+    ],
+    "\u0159editel": [
+        "../../data/extracted_articles_1.txt@33116"
+    ],
+    "restaurace": [
+        "../../data/extracted_articles_1.txt@37149",
+        "../../data/extracted_articles_1.txt@58165",
+        "../../data/extracted_articles_1.txt@123410"
+    ],
+    "nemrava": [
+        "../../data/extracted_articles_1.txt@37149"
+    ],
+    "firma": [
+        "../../data/extracted_articles_1.txt@37149"
+    ],
+    "r\u00e1d": [
+        "../../data/extracted_articles_1.txt@37149"
+    ],
+    "uv\u00e9st": [
+        "../../data/extracted_articles_1.txt@43119"
+    ],
+    "koncert": [
+        "../../data/extracted_articles_1.txt@43119"
+    ],
+    "p\u0159en\u00e1\u0161en\u00fd": [
+        "../../data/extracted_articles_1.txt@43119"
+    ],
+    "studium": [
+        "../../data/extracted_articles_1.txt@43119"
+    ],
+    "labu\u0165": [
+        "../../data/extracted_articles_1.txt@43881"
+    ],
+    "Josef": [
+        "../../data/extracted_articles_1.txt@43881"
+    ],
+    "navrhnout": [
+        "../../data/extracted_articles_1.txt@43881"
+    ],
+    "obchodn\u00ed": [
+        "../../data/extracted_articles_1.txt@43881"
+    ],
+    "pal\u00e1c": [
+        "../../data/extracted_articles_1.txt@43881"
+    ],
+    "Feri": [
+        "../../data/extracted_articles_1.txt@45183"
+    ],
+    "vl\u00e1da": [
+        "../../data/extracted_articles_1.txt@45183",
+        "../../data/extracted_articles_1.txt@58757"
+    ],
+    "str\u00e1nka": [
+        "../../data/extracted_articles_1.txt@45183"
+    ],
+    "vzniknout": [
+        "../../data/extracted_articles_1.txt@45183"
+    ],
+    "web": [
+        "../../data/extracted_articles_1.txt@45183"
+    ],
+    "cena": [
+        "../../data/extracted_articles_1.txt@48448"
+    ],
+    "metr": [
+        "../../data/extracted_articles_1.txt@48448"
+    ],
+    "nemovitost": [
+        "../../data/extracted_articles_1.txt@48448"
+    ],
+    "Praha": [
+        "../../data/extracted_articles_1.txt@48448"
+    ],
+    "ministr": [
+        "../../data/extracted_articles_1.txt@52714",
+        "../../data/extracted_articles_1.txt@89843",
+        "../../data/extracted_articles_1.txt@112688"
+    ],
+    "Prymula": [
+        "../../data/extracted_articles_1.txt@52714",
+        "../../data/extracted_articles_1.txt@58757",
+        "../../data/extracted_articles_1.txt@89843",
+        "../../data/extracted_articles_1.txt@105693",
+        "../../data/extracted_articles_1.txt@112688",
+        "../../data/extracted_articles_1.txt@123410"
+    ],
+    "premi\u00e9r": [
+        "../../data/extracted_articles_1.txt@52714"
+    ],
+    "Babi\u0161": [
+        "../../data/extracted_articles_1.txt@52714",
+        "../../data/extracted_articles_1.txt@58757"
+    ],
+    "uchaze\u010d": [
+        "../../data/extracted_articles_1.txt@58165"
+    ],
+    "muset": [
+        "../../data/extracted_articles_1.txt@58165",
+        "../../data/extracted_articles_1.txt@112688"
+    ],
+    "zku\u0161enost": [
+        "../../data/extracted_articles_1.txt@58165"
+    ],
+    "veden\u00ed": [
+        "../../data/extracted_articles_1.txt@58165"
+    ],
+    "Zeman": [
+        "../../data/extracted_articles_1.txt@58757"
+    ],
+    "\u0159\u00edci": [
+        "../../data/extracted_articles_1.txt@58757"
+    ],
+    "\u017eena": [
+        "../../data/extracted_articles_1.txt@62957"
+    ],
+    "AFP": [
+        "../../data/extracted_articles_1.txt@62957"
+    ],
+    "ob\u011b\u0165": [
+        "../../data/extracted_articles_1.txt@62957"
+    ],
+    "jen\u017e": [
+        "../../data/extracted_articles_1.txt@62957"
+    ],
+    "francouzsk\u00fd": [
+        "../../data/extracted_articles_1.txt@62957"
+    ],
+    "nyn\u00ed": [
+        "../../data/extracted_articles_1.txt@68604"
+    ],
+    "politick\u00fd": [
+        "../../data/extracted_articles_1.txt@72606"
+    ],
+    "centrum": [
+        "../../data/extracted_articles_1.txt@72606"
+    ],
+    "pandemie": [
+        "../../data/extracted_articles_1.txt@72606"
+    ],
+    "strach": [
+        "../../data/extracted_articles_1.txt@72606"
+    ],
+    "S\u00fad\u00e1n": [
+        "../../data/extracted_articles_1.txt@73617"
+    ],
+    "Izrael": [
+        "../../data/extracted_articles_1.txt@73617"
+    ],
+    "vztah": [
+        "../../data/extracted_articles_1.txt@73617"
+    ],
+    "prezident": [
+        "../../data/extracted_articles_1.txt@73617"
+    ],
+    "Pumari": [
+        "../../data/extracted_articles_1.txt@78206"
+    ],
+    "voli\u010d": [
+        "../../data/extracted_articles_1.txt@78206"
+    ],
+    "Camachoe": [
+        "../../data/extracted_articles_1.txt@78206"
+    ],
+    "viceprezident": [
+        "../../data/extracted_articles_1.txt@78206"
+    ],
+    "hlas": [
+        "../../data/extracted_articles_1.txt@78206"
+    ],
+    "ventil\u00e1tor": [
+        "../../data/extracted_articles_1.txt@80945"
+    ],
+    "NATO": [
+        "../../data/extracted_articles_1.txt@80945"
+    ],
+    "pomoc": [
+        "../../data/extracted_articles_1.txt@80945"
+    ],
+    "\u010cesko": [
+        "../../data/extracted_articles_1.txt@80945"
+    ],
+    "italsk\u00fd": [
+        "../../data/extracted_articles_1.txt@86684"
+    ],
+    "oblast": [
+        "../../data/extracted_articles_1.txt@86684"
+    ],
+    "Mont": [
+        "../../data/extracted_articles_1.txt@86684"
+    ],
+    "Blanc": [
+        "../../data/extracted_articles_1.txt@86684"
+    ],
+    "hranice": [
+        "../../data/extracted_articles_1.txt@86684",
+        "../../data/extracted_articles_1.txt@95917"
+    ],
+    "\u010desk\u00fd": [
+        "../../data/extracted_articles_1.txt@89843",
+        "../../data/extracted_articles_1.txt@99637"
+    ],
+    "zpr\u00e1va": [
+        "../../data/extracted_articles_1.txt@89843"
+    ],
+    "mo\u017enost": [
+        "../../data/extracted_articles_1.txt@95224"
+    ],
+    "ov\u011b\u0159it": [
+        "../../data/extracted_articles_1.txt@95224"
+    ],
+    "pravdivost": [
+        "../../data/extracted_articles_1.txt@95224"
+    ],
+    "st\u011b\u017eovat": [
+        "../../data/extracted_articles_1.txt@95224"
+    ],
+    "informa\u010dn\u00ed": [
+        "../../data/extracted_articles_1.txt@95224"
+    ],
+    "d\u00edt\u011b": [
+        "../../data/extracted_articles_1.txt@95917"
+    ],
+    "rodi\u010d": [
+        "../../data/extracted_articles_1.txt@95917"
+    ],
+    "rodina": [
+        "../../data/extracted_articles_1.txt@95917"
+    ],
+    "2018": [
+        "../../data/extracted_articles_1.txt@95917"
+    ],
+    "d\u00e1rce": [
+        "../../data/extracted_articles_1.txt@99637"
+    ],
+    "ledvina": [
+        "../../data/extracted_articles_1.txt@99637"
+    ],
+    "p\u00e1r": [
+        "../../data/extracted_articles_1.txt@99637"
+    ],
+    "p\u0159\u00edjemce": [
+        "../../data/extracted_articles_1.txt@99637"
+    ],
+    "rou\u0161ka": [
+        "../../data/extracted_articles_1.txt@105693"
+    ],
+    "Falt\u00fdnek": [
+        "../../data/extracted_articles_1.txt@105693",
+        "../../data/extracted_articles_1.txt@123410"
+    ],
+    "Mazurek": [
+        "../../data/extracted_articles_1.txt@105693"
+    ],
+    "pan": [
+        "../../data/extracted_articles_1.txt@112688"
+    ],
+    "vl\u00e1dn\u00ed": [
+        "../../data/extracted_articles_1.txt@112688"
+    ],
+    "testov\u00e1n\u00ed": [
+        "../../data/extracted_articles_1.txt@116740"
+    ],
+    "test": [
+        "../../data/extracted_articles_1.txt@116740"
+    ],
+    "Slovensko": [
+        "../../data/extracted_articles_1.txt@116740"
+    ],
+    "obyvatel": [
+        "../../data/extracted_articles_1.txt@116740"
+    ],
+    "setk\u00e1n\u00ed": [
+        "../../data/extracted_articles_1.txt@123410"
+    ],
+    "sch\u016fzka": [
+        "../../data/extracted_articles_1.txt@123410"
+    ],
+    "Borat": [
+        "../../data/extracted_articles_1.txt@127497"
+    ],
+    "Giuliani": [
+        "../../data/extracted_articles_1.txt@127497"
+    ],
+    "film": [
+        "../../data/extracted_articles_1.txt@127497"
+    ],
+    "rok": [
+        "../../data/extracted_articles_1.txt@127497"
+    ],
+    "New": [
+        "../../data/extracted_articles_1.txt@127497"
+    ]
+}
