@@ -11,9 +11,9 @@ crawler = ArchiveCrawler(start_url)
 scraper = ArticleScraper(file_name, max_file_size)
 
 page_number = 1
-last_page = 5
+last_page = 1
 
-while page_number < last_page:
+while page_number <= last_page:
     try:
         crawled_urls = crawler.get_urls(page_number)
         if not crawled_urls:

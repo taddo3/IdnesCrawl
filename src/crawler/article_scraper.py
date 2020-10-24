@@ -117,5 +117,6 @@ class ArticleScraper:
                 self.file_name = sub('[0-9]+', str(next_file_number), self.file_name)
             with open(self.file_name, 'a+', encoding='utf-8') as f:
                 f.write(json)
+                f.write('\n')
             print('Scraped: ' + article_url)
 
