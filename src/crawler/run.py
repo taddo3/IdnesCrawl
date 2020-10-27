@@ -11,7 +11,7 @@ crawler = ArchiveCrawler(start_url)
 scraper = ArticleScraper(file_name, max_file_size)
 
 page_number = 1
-last_page = 1
+last_page = 1000
 
 while page_number <= last_page:
     try:

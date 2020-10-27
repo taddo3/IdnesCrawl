@@ -27,6 +27,9 @@ class Indexer:
                 json = loads(article_data)
                 position = self.find_position(articles_file, json['title'])
 
+                if position is None:
+                    print('Error: Position isn\'t find.')
+
                 if json['keywords'] and position is not None:
                     for keyword in json['keywords']:
                         if keyword in self.indexes.keys():
@@ -46,11 +49,11 @@ class Indexer:
 
     @staticmethod
     def find_position(articles_file, title):
-        articles_file.seek(0)
         while True:
             position = articles_file.tell()
             line = articles_file.readline()
             if not line or line[0] != '{':
+                articles_file.seek(0)
                 return None
             article_data = line
             while line[0] != '}':

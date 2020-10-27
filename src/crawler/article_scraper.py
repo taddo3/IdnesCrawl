@@ -105,8 +105,9 @@ class ArticleScraper:
     def __init__(self, file_name, max_file_size):
         self.file_name = file_name
         self.max_file_size = max_file_size
-        with open(self.file_name, 'w', encoding='utf-8') as f:
-            f.close()
+        if not path.exists(self.file_name):
+            with open(self.file_name, 'w', encoding='utf-8') as f:
+                f.close()
 
     def scrap_article(self, article_url):
         data = get_data(article_url)

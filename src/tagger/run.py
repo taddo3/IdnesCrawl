@@ -12,9 +12,10 @@ file_number = 1
 
 while path.exists('../../data/extracted_articles_' + str(file_number) + '.txt'):
     f = open('../../data/extracted_articles_' + str(file_number) + '.txt', 'r', encoding='utf=8')
+    processed_articles = 0
 
-    try:
-        while True:
+    while True:
+        try:
             line = f.readline()
             if not line or line[0] != '{':
                 break
@@ -24,20 +25,24 @@ while path.exists('../../data/extracted_articles_' + str(file_number) + '.txt'):
                 article_data += line
             json = loads(article_data)
 
-            text = re.sub('[\.\,\!\?\'\"\:\“\„\`]', '', json['content'])
+            text = re.sub('[\.\,\!\?\'\"\:\“\„\`\(\)\{\}\[\}\%\-\_\*\@\$\+\/\&\|\<\>\;]', '', json['content'])
             text = re.sub(' +', ' ', text)
             sorted_lemmas = lemmatizer.get_lemmas(text)
             keywords = [keyword[0] for keyword in sorted_lemmas[:no_keywords]]
             with open('../../data/articles_keywords_' + str(file_number) + '.txt', 'a+', encoding='utf-8') as k_file:
                 k_file.write(dumps({'title': json['title'], 'keywords': keywords}, indent=4, sort_keys=False))
                 k_file.write('\n')
-            print('Extracted keywords: ' + str(keywords))
 
-    except Exception as ex:
-        print('Error: ' + str(ex))
-    finally:
-        f.close()
-        file_number += 1
+            processed_articles += 1
+            if processed_articles % 100 == 0:
+                print('Processed articles: ' + str(processed_articles))
+
+        except Exception as ex:
+            print('Error: ' + str(ex))
+
+    file_number += 1
+    f.close()
+
 
 
 
