@@ -30,5 +30,25 @@ class SearchEngine:
             articles_indexes = self.indexes[keyword][:self.no_returned_articles]
             return retrieve_articles(articles_indexes)
         else:
-            return []
+            return None
+
+    def search_by_keywords(self, keywords, operator='or'):
+        if operator == 'or' and self.indexes:
+            articles_indexes = []
+            for keyword in keywords:
+                if keyword in self.indexes.keys():
+                    articles_indexes += self.indexes[keyword]
+            articles_indexes = list(set(articles_indexes))[:self.no_returned_articles]
+            return retrieve_articles(articles_indexes)
+
+        if operator == 'and' and self.indexes:
+            if keywords[0] in self.indexes.keys():
+                article_indexes = self.indexes[keywords[0]]
+                for keyword in keywords:
+                    article_indexes = list(set(article_indexes) & set(self.indexes[keyword]))
+                article_indexes = article_indexes[:self.no_returned_articles]
+                return  retrieve_articles(article_indexes)
+
+        return None
+
 

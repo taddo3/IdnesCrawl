@@ -11,7 +11,12 @@ engine = SearchEngine(number)
 print('Write keyword: ', end='')
 keyword = input()
 while keyword != 'q':
-    articles = engine.search_by_keyword(keyword)
+    if keyword[0] == '|':
+        articles = engine.search_by_keywords(sub(' +', ' ', sub('^\| *', '', keyword)).split(' '))
+    elif keyword[0] == '&':
+        articles = engine.search_by_keywords(sub(' +', ' ', sub('^\& *', '', keyword)).split(' '), operator='and')
+    else:
+        articles = engine.search_by_keyword(keyword)
     if articles:
         for article in articles:
             print(dumps(loads(article), indent=4, sort_keys=True))
