@@ -39,6 +39,7 @@ class Indexer:
                             self.indexes[keyword] = [articles_filename + '@' + str(position)]
 
             with open('../../data/indexes.txt', 'w', encoding='utf-8') as index_file:
+                self.indexes = {k: v for k, v in sorted(self.indexes.items(), key=lambda item: len(item[1]), reverse=True)}
                 index_file.write(dumps(self.indexes, indent=4))
 
         except Exception as ex:
