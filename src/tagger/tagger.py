@@ -25,7 +25,7 @@ class Lemmatizer:
             self.tagger.tag(self.forms, self.lemmas)
             for lemma in self.lemmas:
                 lemmatized_word = re.sub('[-_]+.*|[^\`]+\`[0-9]+', '', lemma.lemma)
-                if lemmatized_word and lemmatized_word not in self.stopwords:
+                if lemmatized_word and lemmatized_word not in self.stopwords and len(lemmatized_word) > 2:
                     if lemmatized_word in lemmatized_words.keys():
                         lemmatized_words[lemmatized_word] += 1
                     else:

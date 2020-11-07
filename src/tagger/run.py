@@ -6,7 +6,7 @@ import re
 
 morfflex_tagger_filename = 'czech-morfflex-pdt-161115.tagger'
 lemmatizer = Lemmatizer(morfflex_tagger_filename)
-no_keywords = 5
+no_keywords = 10
 file_number = 1
 
 
@@ -32,6 +32,10 @@ while path.exists('../../data/extracted_articles_' + str(file_number) + '.txt'):
             with open('../../data/articles_keywords_' + str(file_number) + '.txt', 'a+', encoding='utf-8') as k_file:
                 k_file.write(dumps({'title': json['title'], 'keywords': keywords}, indent=4, sort_keys=False))
                 k_file.write('\n')
+            if json['category'] and keywords:
+                with open('../../data/category_keywords_' + str(file_number) + '.txt', 'a+', encoding='utf-8') as c_file:
+                    c_file.write(dumps({'category': json['category'], 'keywords': keywords}, indent=4, sort_keys=False))
+                    c_file.write('\n')
 
             processed_articles += 1
             if processed_articles % 100 == 0:
