@@ -43,3 +43,16 @@ class Predictor:
         remove(file_name)
         rename(file_name + '_prc', file_name)
 
+    def predict_another_keywords(self, keywords, limit=5):
+        new_keywords = []
+        category = self.predict_category(keywords)
+        category_keywords = {k: v for k, v in sorted(self.category_keyword_score[category].items(),
+                                                     key=lambda item: item[1],
+                                                     reverse=True)}
+        for keyword in category_keywords:
+            if keyword not in keywords:
+                new_keywords.append(keyword)
+            if len(new_keywords) >= limit:
+                break
+        return new_keywords
+

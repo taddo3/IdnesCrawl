@@ -47,7 +47,7 @@ class SearchEngine:
                 for keyword in keywords:
                     article_indexes = list(set(article_indexes) & set(self.indexes[keyword]))
                 article_indexes = article_indexes[:self.no_returned_articles]
-                return  retrieve_articles(article_indexes)
+                return retrieve_articles(article_indexes)
 
         return None
 
