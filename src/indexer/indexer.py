@@ -1,15 +1,18 @@
 from json import loads, dumps
+from os import path
 
 
 class Indexer:
 
     def __init__(self):
-        with open('../../data/indexes.txt', 'r', encoding='utf-8') as index_file:
-            index_lines = index_file.read()
-            if index_lines:
-                self.indexes = loads(index_lines)
-            else:
-                self.indexes = dict()
+        self.indexes = dict()
+        if path.exists('../../data/indexes.txt'):
+            with open('../../data/indexes.txt', 'r', encoding='utf-8') as index_file:
+                index_lines = index_file.read()
+                if index_lines:
+                    self.indexes = loads(index_lines)
+        else:
+            open('../../data/indexes.txt', 'w', encoding='utf-8').close()
 
     def create_index(self, articles_filename, keywords_filename):
         articles_file = open(articles_filename, 'r', encoding='utf-8')
