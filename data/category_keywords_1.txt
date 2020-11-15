@@ -1,0 +1,495 @@
+{
+    "category": "domaci",
+    "keywords": [
+        "posledn\u00ed",
+        "t\u00fdden",
+        "zdravotnictv\u00ed",
+        "\u010dtvrtek",
+        "po\u010det",
+        "pacient",
+        "ministr",
+        "\u00fadaj",
+        "ministerstvo",
+        "naka\u017een\u00fd"
+    ]
+}
+{
+    "category": "kraje",
+    "keywords": [
+        "cesta",
+        "dovolen\u00e1",
+        "pohoda",
+        "chr\u00e1nit",
+        "koronavirus",
+        "nosit",
+        "rou\u0161ka",
+        "bydlet",
+        "soukrom\u00ed",
+        "zp\u00e1tky"
+    ]
+}
+{
+    "category": "ekonomikah",
+    "keywords": [
+        "Michl",
+        "moci",
+        "r\u016fst",
+        "ekonomika",
+        "procento",
+        "rok",
+        "banka",
+        "st\u00e1tn\u00ed",
+        "rozpo\u010det",
+        "sou\u010dasn\u00fd"
+    ]
+}
+{
+    "category": "domaci",
+    "keywords": [
+        "semafor",
+        "n\u00e1kaza",
+        "cel\u00fd",
+        "kraj",
+        "\u010derven\u00fd",
+        "komunitn\u00ed",
+        "p\u0159enos",
+        "tehdy",
+        "okres",
+        "moci"
+    ]
+}
+{
+    "category": "technet",
+    "keywords": [
+        "vakc\u00edna",
+        "Dvo\u0159\u00e1\u010dek",
+        "\u010dlov\u011bk",
+        "Jakub",
+        "spole\u010dnost",
+        "evropsk\u00fd",
+        "v\u00fdroba",
+        "farmaceutick\u00fd",
+        "moci",
+        "o\u010dkovac\u00ed"
+    ]
+}
+{
+    "category": "zahranicni",
+    "keywords": [
+        "\u010dlov\u011bk",
+        "koronavirus",
+        "sv\u016fj",
+        "zem\u011b",
+        "p\u0159\u00edpad",
+        "p\u00e1tek",
+        "prezident",
+        "Duda",
+        "test",
+        "Polsko"
+    ]
+}
+{
+    "category": "kraje",
+    "keywords": [
+        "t\u00e1bor",
+        "zajatec",
+        "v\u011bd\u011bt",
+        "Dub\u00ed",
+        "m\u00edsto",
+        "n\u011bkolik",
+        "m\u011bsto",
+        "Ka\u0161par",
+        "tabule",
+        "zahynout"
+    ]
+}
+{
+    "category": "domaci",
+    "keywords": [
+        "epidemie",
+        "stoupat",
+        "z\u00e1vratn\u00fd",
+        "vrchol",
+        "nemocnice",
+        "praskat",
+        "\u0161ev",
+        "mrtv\u00fd",
+        "p\u0159ib\u00fdvat",
+        "stovka"
+    ]
+}
+{
+    "category": "domaci",
+    "keywords": [
+        "park",
+        "Krkono\u0161e",
+        "motork\u00e1\u0159",
+        "kolem",
+        "\u0159editel",
+        "probl\u00e9m",
+        "n\u00e1jezd",
+        "mluv\u010d\u00ed",
+        "p\u0159\u00edpad",
+        "n\u00e1rodn\u00ed"
+    ]
+}
+{
+    "category": "kraje",
+    "keywords": [
+        "restaurace",
+        "nemrava",
+        "sv\u016fj",
+        "firma",
+        "r\u00e1d",
+        "zalo\u017eit",
+        "kuchyn\u011b",
+        "MasterChef",
+        "sout\u011b\u017e",
+        "v\u00fdzva"
+    ]
+}
+{
+    "category": "kraje",
+    "keywords": [
+        "moci",
+        "uv\u00e9st",
+        "koncert",
+        "p\u0159en\u00e1\u0161en\u00fd",
+        "studium",
+        "doln\u00ed",
+        "Bojanovice",
+        "Hodon\u00ednsko",
+        "stihnout",
+        "pustit"
+    ]
+}
+{
+    "category": "kraje",
+    "keywords": [
+        "labu\u0165",
+        "Josef",
+        "navrhnout",
+        "obchodn\u00ed",
+        "pal\u00e1c",
+        "B\u00edl\u00e1",
+        "vzniknout",
+        "pl\u00e1n",
+        "Kittrich",
+        "Hrub\u00fd"
+    ]
+}
+{
+    "category": "domaci",
+    "keywords": [
+        "Feri",
+        "vl\u00e1da",
+        "str\u00e1nka",
+        "vzniknout",
+        "web",
+        "opat\u0159en\u00ed",
+        "koronavirus",
+        "jednat",
+        "premi\u00e9r",
+        "Babi\u0161"
+    ]
+}
+{
+    "category": "ekonomikah",
+    "keywords": [
+        "cena",
+        "metr",
+        "nemovitost",
+        "procento",
+        "Praha",
+        "\u010dtvere\u010dn\u00ed",
+        "r\u016fst",
+        "byt",
+        "m\u011bsto",
+        "178"
+    ]
+}
+{
+    "category": "domaci",
+    "keywords": [
+        "zdravotnictv\u00ed",
+        "ministr",
+        "Prymula",
+        "premi\u00e9r",
+        "Babi\u0161",
+        "n\u00e1m\u011bstek",
+        "ministerstvo",
+        "nemocnice",
+        "\u0160edo",
+        "moci"
+    ]
+}
+{
+    "category": "ekonomikah",
+    "keywords": [
+        "uchaze\u010d",
+        "muset",
+        "zku\u0161enost",
+        "veden\u00ed",
+        "restaurace",
+        "ocenit",
+        "alespo\u0148",
+        "michelinsk\u00fd",
+        "hv\u011bzda",
+        "ps\u00e1t"
+    ]
+}
+{
+    "category": "domaci",
+    "keywords": [
+        "Babi\u0161",
+        "Prymula",
+        "vl\u00e1da",
+        "Zeman",
+        "\u0159\u00edci",
+        "L\u00e1ny",
+        "ministr",
+        "d\u011btsk\u00fd",
+        "prezident",
+        "nemocnice"
+    ]
+}
+{
+    "category": "zahranicni",
+    "keywords": [
+        "\u017eena",
+        "AFP",
+        "ob\u011b\u0165",
+        "jen\u017e",
+        "francouzsk\u00fd",
+        "t\u00fdden",
+        "Paty",
+        "n\u00e1vrh",
+        "muslimsk\u00fd",
+        "rodina"
+    ]
+}
+{
+    "category": "domaci",
+    "keywords": [
+        "nemocnice",
+        "po\u010det",
+        "zdravotnictv\u00ed",
+        "\u010dlov\u011bk",
+        "nyn\u00ed",
+        "test",
+        "ministerstvo",
+        "nov\u011b",
+        "celkem",
+        "covid"
+    ]
+}
+{
+    "category": "zahranicni",
+    "keywords": [
+        "koronavirus",
+        "politick\u00fd",
+        "centrum",
+        "pandemie",
+        "strach",
+        "n\u00e1sil\u00ed",
+        "nap\u011bt\u00ed",
+        "prezidentsk\u00fd",
+        "volba",
+        "vyh\u00e1n\u011bt"
+    ]
+}
+{
+    "category": "zahranicni",
+    "keywords": [
+        "S\u00fad\u00e1n",
+        "Izrael",
+        "zem\u011b",
+        "vztah",
+        "prezident",
+        "st\u00e1t",
+        "s\u00fad\u00e1nsk\u00fd",
+        "normalizace",
+        "palestinsk\u00fd",
+        "arabsk\u00fd"
+    ]
+}
+{
+    "category": "zahranicni",
+    "keywords": [
+        "Pumari",
+        "voli\u010d",
+        "Camachoe",
+        "viceprezident",
+        "hlas",
+        "volba",
+        "exprezident",
+        "pat\u0159it",
+        "usilovat",
+        "bok"
+    ]
+}
+{
+    "category": "domaci",
+    "keywords": [
+        "ventil\u00e1tor",
+        "NATO",
+        "pomoc",
+        "\u010cesko",
+        "zem\u011b",
+        "st\u00e1t",
+        "zdravotnick\u00fd",
+        "materi\u00e1l",
+        "uv\u00e9st",
+        "reakce"
+    ]
+}
+{
+    "category": "zahranicni",
+    "keywords": [
+        "italsk\u00fd",
+        "oblast",
+        "hranice",
+        "opat\u0159en\u00ed",
+        "It\u00e1lie",
+        "Mont",
+        "Blanc",
+        "\u00fazem\u00ed",
+        "uv\u00e9st",
+        "Maio"
+    ]
+}
+{
+    "category": "zahranicni",
+    "keywords": [
+        "ministr",
+        "\u010desk\u00fd",
+        "zdravotnictv\u00ed",
+        "zpr\u00e1va",
+        "Prymula",
+        "Falt\u00fdnk\u016fv",
+        "zem\u011b",
+        "server",
+        "republika",
+        "vl\u00e1dn\u00ed"
+    ]
+}
+{
+    "category": "zahranicni",
+    "keywords": [
+        "mo\u017enost",
+        "ov\u011b\u0159it",
+        "pravdivost",
+        "st\u011b\u017eovat",
+        "informa\u010dn\u00ed",
+        "v\u00e1lka",
+        "st\u00e1t",
+        "v\u00e9st",
+        "nedostatek",
+        "z\u00e1visl\u00fd"
+    ]
+}
+{
+    "category": "zahranicni",
+    "keywords": [
+        "d\u00edt\u011b",
+        "rodi\u010d",
+        "rodina",
+        "hranice",
+        "2018",
+        "rok",
+        "soud",
+        "ACLU",
+        "pr\u00e1vn\u00edk",
+        "migrant"
+    ]
+}
+{
+    "category": "domaci",
+    "keywords": [
+        "d\u00e1rce",
+        "ledvina",
+        "\u010desk\u00fd",
+        "p\u00e1r",
+        "p\u0159\u00edjemce",
+        "v\u00fdm\u011bna",
+        "v\u0161echen",
+        "zem\u011b",
+        "sv\u016fj",
+        "transplantace"
+    ]
+}
+{
+    "category": "domaci",
+    "keywords": [
+        "rou\u0161ka",
+        "Prymula",
+        "moci",
+        "Falt\u00fdnek",
+        "Mazurek",
+        "jin\u00fd",
+        "zdravotnictv\u00ed",
+        "nadporu\u010d\u00edk",
+        "vojensk\u00fd",
+        "sice"
+    ]
+}
+{
+    "category": "domaci",
+    "keywords": [
+        "pan",
+        "ministr",
+        "Prymula",
+        "vl\u00e1dn\u00ed",
+        "muset",
+        "prezident",
+        "vl\u00e1da",
+        "restaurace",
+        "na\u0159\u00edzen\u00ed",
+        "premi\u00e9r"
+    ]
+}
+{
+    "category": "zahranicni",
+    "keywords": [
+        "testov\u00e1n\u00ed",
+        "test",
+        "\u010dlov\u011bk",
+        "Slovensko",
+        "obyvatel",
+        "koronavirus",
+        "m\u00edsto",
+        "zem\u011b",
+        "\u010dekat",
+        "arm\u00e1da"
+    ]
+}
+{
+    "category": "domaci",
+    "keywords": [
+        "Falt\u00fdnek",
+        "Prymula",
+        "setk\u00e1n\u00ed",
+        "restaurace",
+        "sch\u016fzka",
+        "sv\u016fj",
+        "poslaneck\u00fd",
+        "klub",
+        "ministr",
+        "zdravotnictv\u00ed"
+    ]
+}
+{
+    "category": "zahranicni",
+    "keywords": [
+        "Borat",
+        "Giuliani",
+        "film",
+        "rok",
+        "New",
+        "York",
+        "pokoj",
+        "Trump\u016fv",
+        "dcera",
+        "video"
+    ]
+}
