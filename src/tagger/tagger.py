@@ -1,5 +1,6 @@
 from ufal.morphodita import *
 import re
+from os import path
 
 
 class Lemmatizer:
@@ -11,10 +12,11 @@ class Lemmatizer:
         self.tokens = TokenRanges()
         self.tokenizer = self.tagger.newTokenizer()
         self.stopwords = []
-        with open('stopwords.txt', 'r', encoding='utf-8') as f:
-            lines = f.readlines()
-            for line in lines:
-                self.stopwords.append(line[:-1])
+        if path.exists('stopwords.txt'):
+            with open('stopwords.txt', 'r', encoding='utf-8') as f:
+                lines = f.readlines()
+                for line in lines:
+                    self.stopwords.append(line[:-1])
 
     def get_lemmas(self, text):
         """
