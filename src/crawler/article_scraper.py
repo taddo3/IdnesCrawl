@@ -4,6 +4,7 @@ from json import dumps
 from os import path
 
 
+# Function bellow extract the specific parts from an article html response.
 def get_title(text):
     result = search('(?<=<title>)[^<]+', text)
     if result:
@@ -75,6 +76,10 @@ def get_headline(text):
 
 
 def get_data(article_url):
+    """
+    This is function for calling other functions to extract specific parts of an article html response.
+    Return a dictionary with extracted data.
+    """
     try:
         article_response = get(article_url)
     except Exception as ex:
@@ -110,6 +115,9 @@ class ArticleScraper:
                 f.close()
 
     def scrap_article(self, article_url):
+        """
+        This method retrieve data from article url and store this data as json in specific file.
+        """
         data = get_data(article_url)
         if data:
             json = dumps(data, indent=4, sort_keys=True)

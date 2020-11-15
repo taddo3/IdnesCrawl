@@ -8,6 +8,9 @@ class ArchiveCrawler:
         self.start_url = start_url
 
     def get_urls(self, page_number=1):
+        """
+        This function crawl the archive pages from idnes.cz and find all article urls.
+        """
         response = get(self.start_url + '/' + str(page_number))
 
         if response.status_code == 200:

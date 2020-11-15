@@ -16,8 +16,11 @@ class Lemmatizer:
             for line in lines:
                 self.stopwords.append(line[:-1])
 
-
     def get_lemmas(self, text):
+        """
+        This method make dict of lemmatized words and its frequency from text and sort this dict by frequency.
+        Return sorted dictionary.
+        """
         self.tokenizer.setText(text)
         lemmatized_words = dict()
 

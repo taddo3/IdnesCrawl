@@ -2,6 +2,9 @@ from json import loads
 
 
 def retrieve_articles(article_indexes):
+    """
+    This function retrieve articles by article indexes and return found articles.
+    """
     articles = []
     for index in article_indexes:
         filename, position = index.split('@')
@@ -26,6 +29,9 @@ class SearchEngine:
             self.no_returned_articles = no_returned_articles
 
     def search_by_keyword(self, keyword):
+        """
+        This method realizes searching by only 1 keyword.
+        """
         if self.indexes and keyword in self.indexes.keys():
             articles_indexes = self.indexes[keyword][:self.no_returned_articles]
             return retrieve_articles(articles_indexes)
@@ -33,6 +39,10 @@ class SearchEngine:
             return None
 
     def search_by_keywords(self, keywords, operator='or'):
+        """
+        This method realizes searching by more than 1 keyword and you can search articles that include all keywords
+        or at least one keyword.
+        """
         if operator == 'or' and self.indexes:
             articles_indexes = []
             for keyword in keywords:

@@ -5,6 +5,9 @@ from json import loads, dumps
 
 
 def split_train_test(file_name):
+    """
+    This function split dataset into train:test 9:1.
+    """
     article_number = 0
     if path.exists(file_name):
         with open(file_name, 'r', encoding='utf-8') as c:
@@ -21,6 +24,7 @@ def split_train_test(file_name):
                         break
                 json_data = loads(data)
 
+                # Store train/test data into separated files.
                 if article_number % 10 != 0:
                     with open('../data/train.txt', 'a+', encoding='utf-8') as train_file:
                         train_file.write(dumps(json_data, indent=4))
@@ -32,6 +36,9 @@ def split_train_test(file_name):
 
 
 def count_statistics(train_file_name):
+    """
+    Function make keywords statistics on the train file and return this statistics.
+    """
     analyzer = Analyzer()
     if path.exists(train_file_name):
         analyzer.make_keywords_statistics(train_file_name)
@@ -39,6 +46,10 @@ def count_statistics(train_file_name):
 
 
 def make_predictions(analyzer, category, test_file_name):
+    """
+    Function make predictions on test dataset and evaluate predictions.
+    Return TP, FP, FN, TN for the category.
+    """
     predictor = Predictor(analyzer.category_keyword_score, analyzer.total_keyword_score)
     true_positive = 0
     false_positive = 0
@@ -71,6 +82,7 @@ def make_predictions(analyzer, category, test_file_name):
     return true_positive, false_positive, false_negative, true_negative
 
 
+# Run the evaluation test and print results into console.
 split_train_test('../data/category_keywords_1.txt')
 analyzer = count_statistics('../data/train.txt')
 TP, FP, FN, TN = make_predictions(analyzer, 'zahranicni', '../data/test.txt')

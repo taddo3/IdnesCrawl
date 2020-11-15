@@ -6,13 +6,13 @@ from src.categorization.analyzer import Analyzer
 from src.categorization.predictor import Predictor
 
 
-# search initialization
+# Search initialization
 print('Set number of articles you want to return: ', end='')
 number = input()
 number = int(sub('[^0-9]', '', str(number)))
 engine = SearchEngine(number)
 
-# predictor initialization
+# Predictor initialization
 file_number = 1
 analyzer = Analyzer()
 while path.exists('../../data/category_keywords_' + str(file_number) + '.txt'):
@@ -26,7 +26,7 @@ keyword = input()
 
 while keyword != 'q':
 
-    # articles by keywords search
+    # Articles by keywords search
     keywords = None
     if keyword[0] == '|':
         keywords = sub(' +', ' ', sub('^\| *', '', keyword)).split(' ')
@@ -42,13 +42,14 @@ while keyword != 'q':
     else:
         print('No articles found.')
 
-    # articles recommendation
+    # Articles recommendation
     max_recommended_articles = 3 if number > 3 else number
     if not keywords:
         keywords = [keyword]
     new_keywords = predictor.predict_another_keywords(keywords, limit=5)
     recommended_articles = engine.search_by_keywords(new_keywords, operator='and')[:max_recommended_articles]
 
+    # Make more recommendations if the number of recommended articles is low
     while len(recommended_articles) < max_recommended_articles:
         new_keywords.pop()
         if not new_keywords:

@@ -10,6 +10,9 @@ class Predictor:
         self.total_keyword_score = total_keyword_score
 
     def predict_category(self, keywords):
+        """
+        This method predict category for keywords written in the console.
+        """
         category_score = dict()
         for category_key in self.category_keyword_score.keys():
             total = 0
@@ -21,6 +24,9 @@ class Predictor:
         return max(category_score.items(), key=operator.itemgetter(1))[0]
 
     def predict_category_for_file(self, file_name):
+        """
+        This method predict category for keywords from file and store it into the file.
+        """
         with open(file_name, 'r', encoding='utf-8') as f:
             while True:
                 line = f.readline()
@@ -44,6 +50,10 @@ class Predictor:
         rename(file_name + '_prc', file_name)
 
     def predict_another_keywords(self, keywords, limit=5):
+        """
+        This method predict keywords by written keywords, but the predicted keywords are different from original
+        keywords.
+        """
         new_keywords = []
         category = self.predict_category(keywords)
         category_keywords = {k: v for k, v in sorted(self.category_keyword_score[category].items(),

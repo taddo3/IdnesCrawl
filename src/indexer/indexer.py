@@ -17,6 +17,7 @@ class Indexer:
 
         try:
             while True:
+                # Scan whole keyword file and find position of article json for corresponding keywords
                 line = keywords_file.readline()
                 if not line or line[0] != '{':
                     break
@@ -30,6 +31,7 @@ class Indexer:
                 if position is None:
                     print('Error: Position isn\'t find.')
 
+                # For every keyword store the filename and the position of the article json
                 if json['keywords'] and position is not None:
                     for keyword in json['keywords']:
                         if keyword in self.indexes.keys():
@@ -50,6 +52,11 @@ class Indexer:
 
     @staticmethod
     def find_position(articles_file, title):
+        """
+        This method find exact position of a json with article data.
+        Searching is realized without index, so method scans whole file.
+        Return the position.
+        """
         while True:
             position = articles_file.tell()
             line = articles_file.readline()

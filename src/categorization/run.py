@@ -15,10 +15,12 @@ predictor = Predictor(analyzer.category_keyword_score, analyzer.total_keyword_sc
 print('Predict category for txt file or cli keywords?\nf - file\nc - command line')
 delimiter = input()
 
+# Make predictions for the file and store this predicted category into the file.
 if delimiter == 'f':
     print('Write file path: ', end='')
     file_path = input()
     predictor.predict_category_for_file(file_path)
+# Make predictions for keywords written in the console
 elif delimiter == 'c':
     print('Write keywords: ', end='')
     keywords = input()

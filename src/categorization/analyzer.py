@@ -8,6 +8,10 @@ class Analyzer:
         self.total_keyword_score = dict()
 
     def make_keywords_statistics(self, file_name):
+        """
+        This method make statistics for keywords and calculate the score for every keyword.
+        Score is calculated by frequency.
+        """
         with open(file_name, 'r', encoding='utf-8') as cat_keywords:
             while True:
                 line = cat_keywords.readline()
